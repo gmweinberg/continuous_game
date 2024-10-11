@@ -1,0 +1,7 @@
+*.swp
+*.png
+__pycache__/
+dist/
+docs/_build
+note
+crap*
