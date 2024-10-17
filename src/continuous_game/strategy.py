@@ -10,7 +10,7 @@ class Strategy:
     def __init__(self, dist=None, fun=None):
         if fun is None and dist is None:
             raise Exception("Must supply fun or dist""")
-        if dist:
+        if dist is not None:
             if type(dist) == type({}):
                 self.dist = dist
             else:
